@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+/*CSS CODE */
+#container{
+	margin:20px;
+	position:relative;
+}
+
+#container::before {
+  content: "Before Element";
+  color: #f00; /* red color */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#container::after {
+  content: "After Element";
+  color: #f00; /* red color */
+  font-size: 20px;
+  margin-top: 10px;
